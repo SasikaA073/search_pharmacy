@@ -1,0 +1,27 @@
+import { Pharmacy } from "src/app/models/pharmacy.model";
+
+export let Polonnaruwa_pharmacies :Pharmacy[] = [
+    new Pharmacy(1764,"Jayarathne Pharmacy","NaN","718980008","Polonnaruwa"),
+    new Pharmacy(1765,"Arogya Pharmacy","NaN","774197686","Polonnaruwa"),
+    new Pharmacy(1766,"Udaya Pharmacy","NaN","702484679","Polonnaruwa"),
+    new Pharmacy(1767,"Purasadha Pharmacy","NaN","710149557","Polonnaruwa"),
+    new Pharmacy(1768,"Up Country Pharmacy","NaN","712957212","Polonnaruwa"),
+    new Pharmacy(1769,"Jeewaka Pharmacy","NaN","716428976","Polonnaruwa"),
+    new Pharmacy(1770,"Osran Pharmacy","NaN","718410920","Polonnaruwa"),
+    new Pharmacy(1771,"Thusitha Pharmacy","NaN","702278863","Polonnaruwa"),
+    new Pharmacy(1772,"Sanudhi Pharmacy","NaN","760515637","Polonnaruwa"),
+    new Pharmacy(1773,"Subodha Pharmacy","NaN","766119392","Polonnaruwa"),
+    new Pharmacy(1774,"Theeraka Pharmacy","NaN","701373427","Polonnaruwa"),
+    new Pharmacy(1775,"Central Pharmacy","NaN","711416854","Polonnaruwa"),
+    new Pharmacy(1776,"City Pharmacy","NaN","713382947","Polonnaruwa"),
+    new Pharmacy(1777,"Co-op Pharmacy SPC Agent","NaN","713376867","Polonnaruwa"),
+    new Pharmacy(1778,"Ispha Pharmacy","NaN","714459555","Polonnaruwa"),
+    new Pharmacy(1779,"Lalith Pharmacy","NaN","775191494","Polonnaruwa"),
+    new Pharmacy(1780,"Rajya Osusala",272225465,"Hospital Junction, Kaduruwela Road, Polonnaruwa.","Polonnaruwa"),
+    new Pharmacy(1781,"Polonnaruwa MPCS",788353200,"Polonnaruwa","Polonnaruwa"),
+    new Pharmacy(1782,"Pulathisi Pharmacy","NaN","773127568","Polonnaruwa"),
+    new Pharmacy(1783,"Senkadagala","NaN","716360880","Polonnaruwa"),
+    new Pharmacy(1784,"Siwalee Pharmacy","NaN","777984293","Polonnaruwa"),
+    new Pharmacy(1785,"Veenus Hospital Pharmacy","NaN","777811427","Polonnaruwa"),
+    new Pharmacy(1786,"Ideal Pharmacy","NaN","778954189","Polonnaruwa"),
+    new Pharmacy(1787,"Samarasinghe Pharmacy",718199881,"No 19, New Town, Welikanda","Polonnaruwa"),];

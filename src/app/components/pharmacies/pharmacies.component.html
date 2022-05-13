@@ -1,0 +1,58 @@
+<div class="container select">
+
+<h4 class="item" style="padding-top: 20px;">Select your district from the dropdown list</h4><!-- <p style="color: white;"> Hello </p> -->
+<!-- <input type="file" #csvReader name="Upload CSV" id="txtFileUpload" (change)="uploadListener($event)" accept=".csv" />     -->
+<!-- <input type="file" #csvReader name="Upload CSV" id="txtFileUpload" (change)="uploadListener($event)" accept=".csv" />     -->
+
+  
+<select id="district_select" class="item form-select form-select-lg mb-3" aria-label=".form-select-lg example" (change)="selectChangeHandler($event)">
+  <option selected>Select the district</option>
+  <option value="Ampara">Ampara</option>
+  <option value="Anuradhapura">Anuradhapura</option>
+  <option value="Badulla">Badulla</option>
+  <option value="Batticaloa">Batticaloa</option>
+  <option value="Colombo">Colombo</option>
+  <option value="Galle">Galle</option>
+  <option value="Gampaha">Gampaha</option>
+  <option value="Hambantota">Hambantota</option>
+  <option value="Jaffna">Jaffna</option>
+  <option value="Kalutara">Kalutara</option>
+  <option value="Kandy">Kandy</option>
+  <option value="Kegalle">Kegalle</option>
+  <option value="Kilinochchi">Kilinochchi</option>
+  <option value="Kurunegala">Kurunegala</option>
+  <option value="Mannar">Mannar</option>
+  <option value="Matale">Matale</option>
+  <option value="Matara">Matara</option>
+  <option value="Monaragala">Monaragala</option>
+  <option value="Mullaitivu">Mullaitivu</option>
+  <option value="Nuwara-Eliya">Nuwara-Eliya</option>
+  <option value="Polonnaruwa">Polonnaruwa</option>
+  <option value="Puttalam">Puttalam</option>
+  <option value="Ratnapura">Ratnapura</option>
+  <option value="Trincomalee">Trincomalee</option>
+  <option value="Vavuniya">Vavuniya</option>
+</select>
+<h4 class="Title item">{{selectedValue}}</h4></div> 
+
+<table *ngIf="isTableShown" class="table table-striped"  style="color:white !important;">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Address</th>
+      <th scope="col">District</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let pharmacy of pharmacy_name;let i = index;">
+      <th scope="row">{{pharmacy.id}}</th>
+      <td> <span>{{pharmacy.name}}</span> </td>
+      <td> <span>{{pharmacy.phone}}</span> </td>
+      <td> <span>{{pharmacy.address}}</span> </td>
+      <td> <span>{{pharmacy.district}}</span> </td>
+
+    </tr>
+  </tbody>
+</table>

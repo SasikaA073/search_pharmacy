@@ -1,0 +1,38 @@
+import { Pharmacy } from "src/app/models/pharmacy.model";
+
+export let Ampara_pharmacies :Pharmacy[] = [
+    new Pharmacy(1,"Orryngo Pharmacy","672277036","Main Street, Addalaichenai","Ampara"),
+    new Pharmacy(2,"Rajya Osusala","672057625","74, TD/02, Akkaraipattu","Ampara"),
+    new Pharmacy(3,"BIO pharmacy","770367674","Main Street Akkaraipattu","Ampara"),
+    new Pharmacy(4,"SMS pharmacy","672279494","Akkaraipattu","Ampara"),
+    new Pharmacy(5,"Welcome pharmacy","777197333","No 218, Main Street, Akkaraipattu","Ampara"),
+    new Pharmacy(6,"Zam Zam Pharmacy","672277698","Main Street, Akkaraipattu","Ampara"),
+    new Pharmacy(7,"Nova Pharmacy","771358848","104/ Main Street, Akkaraipattu","Ampara"),
+    new Pharmacy(8,"Rajya Osusala","632223088","Temple Junction, D. S. Senanayake Veediya, Ampara","Ampara"),
+    new Pharmacy(9,"Prabhoda Pharmacy","635674013","Prabhodha Hospitals Pvt Ltd, Pandukabaya Mw, Ampara","Ampara"),
+    new Pharmacy(10,"Food City -Ampara","632222372","18, Regal Cinema, Nidahas Mawatha","Ampara"),
+    new Pharmacy(11,"Oslaka Pharmacy","705259783","Dehiattakandiya","Ampara"),
+    new Pharmacy(12,"Arokya Pharmacy and Grocery","774754678","299, Batticoloa Road, Kalmunai","Ampara"),
+    new Pharmacy(13,"New Harcourts Pharmacy","672226292","266/4, Main Street, Kalmunai","Ampara"),
+    new Pharmacy(14,"T.M.M. Pharmacy","777999772","No 446, Main Street, Kalmuni","Ampara"),
+    new Pharmacy(15,"Aboo Pharmacy","755195545","310, Main Street, Natpiddimunai 02, Kalmunai","Ampara"),
+    new Pharmacy(16,"City Pharmacy","773508343","Main Street, Kalmunai","Ampara"),
+    new Pharmacy(17,"Unico Pharmacy","776912014","Mahaoya","Ampara"),
+    new Pharmacy(18,"Best Medical","776688664","No 31 Main Street, Ninthavur","Ampara"),
+    new Pharmacy(19,"Rajya Osusala, Nintavur","NaN","Main Street, Nintavur.","Ampara"),
+    new Pharmacy(20,"SSI Pharmacy & Costemics","672250826","No. 83, Bank Road, Nintavur 13","Ampara"),
+    new Pharmacy(21,"New Ruhunu Pharmacy","713386560","Padiyathalawa","Ampara"),
+    new Pharmacy(22,"Jespa Pharmacy","776691089","Pottuvil","Ampara"),
+    new Pharmacy(23,"Imaad Pharmacy & Channelling","672222856","No. 554, Main Street, Sainthamaruthu-7","Ampara"),
+    new Pharmacy(24,"Al-Bayan Pharmacy","776153088","No 91, Main Street, Sammanthurai","Ampara"),
+    new Pharmacy(25,"Jafas pharmacy","779047078","Hijra Junction, Sammanthurai","Ampara"),
+    new Pharmacy(26,"Medicare Pharmacy","672260129","Hospital Road, Samanthurai","Ampara"),
+    new Pharmacy(27,"APS Pharmacy","755231046","Main Street, Thirukovil","Ampara"),
+    new Pharmacy(28,"S.C. Pharmacy","750502995","Main Street, Thirukovil","Ampara"),
+    new Pharmacy(29,"New Gampaha Pharmacy","772778261","Uhana","Ampara"),
+    new Pharmacy(30,"Osada Pharmacy","766754140","Gonagala","Ampara"),
+    new Pharmacy(31,"Osada Pharmacy","772451749","Uhana","Ampara"),
+    new Pharmacy(32,"Ajith Pharmacy","772778261","Uhana","Ampara"),
+    new Pharmacy(33,"Medicare Pharmacy","773350347","Hingurana","Ampara"),];
+  
+  

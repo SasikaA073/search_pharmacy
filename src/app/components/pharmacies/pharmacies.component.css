@@ -1,0 +1,16 @@
+.select{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.item {
+    width:auto;
+    padding: 10px;
+    /* background-color: rgba(111,41,97,.3); */
+    /* border: 2px solid rgba(111,41,97,.5); */
+    display: inline-block;
+    vertical-align: middle
+  }
+  
